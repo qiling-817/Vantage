@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>坦途模块铝合金地垫 - 产品选择指南</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .company-logo {
+            max-width: 200px;
+            height: auto;
+            margin: 0 auto 30px;
+            display: block;
+        }
+
+        .main-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #6b7280;
+            font-weight: 400;
+        }
+
+        .section-divider {
+            text-align: center;
+            margin: 60px 0 40px;
+        }
+
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .technical-specs {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .specs-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+            background: white;
+            padding: 20px;
+        }
+
+        .product-section {
+            margin-bottom: 60px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 20px 30px;
+            background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+            border-radius: 16px;
+            border-left: 5px solid #667eea;
+        }
+
+        .model-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #1e293b;
+        }
+
+        .model-specs {
+            font-size: 0.95rem;
+            color: #64748b;
+            background: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .colors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .color-card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .color-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .color-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+            border-color: #667eea20;
+        }
+
+        .color-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .color-preview {
+            aspect-ratio: 1 / 1;
+            width: 100%;
+            height: 180px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            background: #f8fafc;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .color-card:hover .product-image {
+            transform: scale(1.05);
+        }
+
+        .color-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 10px;
+        }
+
+        .color-description {
+            font-size: 0.9rem;
+            color: #64748b;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .recommended-usage {
+            background: #f1f5f9;
+            padding: 12px 16px;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            color: #475569;
+            border-left: 3px solid #667eea;
+        }
+
+        .comparison-section {
+            background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+            border-radius: 20px;
+            padding: 40px;
+            margin-top: 50px;
+        }
+
+        .comparison-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .model-comparison {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .spec-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .spec-item:last-child {
+            border-bottom: none;
+        }
+
+        .spec-label {
+            font-weight: 500;
+            color: #475569;
+        }
+
+        .spec-value {
+            font-weight: 600;
+            color: #1e293b;
+        }
+
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2.5rem;
+            }
+            
+            .colors-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+        }
+
+        .selection-guide {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-top: 30px;
+            border: 2px solid #e2e8f0;
+        }
+
+        .guide-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .guide-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .guide-item {
+            text-align: center;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 12px;
+        }
+
+        .guide-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .guide-text {
+            font-size: 0.9rem;
+            color: #64748b;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<img alt="公司Logo" class="company-logo" src="https://a2.fspage.com/image/plhbkj/C_202506_03_a9eb368692de464fa750bbc46dd494a5"/>
+<h1 class="main-title">坦途模块铝合金地垫</h1>
+<p class="subtitle">专业级超强耐磨 · 模块化快速安装 · 多场景适配</p>
+</div>
+<!-- 大标题图片 -->
+<div class="section-divider">
+<img alt="产品选色指南" class="section-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_1ee53d687e084761ba6c9906b15982ac"/>
+</div>
+<!-- AL1205 产品展示 -->
+<div class="product-section">
+<div class="section-header">
+<h2 class="model-title">AL1205 标准型</h2>
+<div class="model-specs">绒高: 5mm | 宽度: 58mm | 重量: 13kg/㎡</div>
+</div>
+<div class="colors-grid">
+<div class="color-card">
+<div class="color-preview">
+<img alt="AL1205浅灰色" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_e7c1ca67179a4858908725751167ca4d"/>
+</div>
+<h3 class="color-name">浅灰色</h3>
+<p class="color-description">简约优雅的浅灰色调，适合现代简约风格的商业空间</p>
+<div class="recommended-usage">
+<strong>推荐场景：</strong>高端办公楼、现代酒店大堂、商务中心
+                    </div>
+</div>
+<div class="color-card">
+<div class="color-preview">
+<img alt="AL1205浅灰条纹" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_d517f7ef60c3475daa1d9cb3c9aa1072"/>
+</div>
+<h3 class="color-name">浅灰条纹</h3>
+<p class="color-description">经典条纹设计，兼具时尚感与实用性，隐藏污渍效果佳</p>
+<div class="recommended-usage">
+<strong>推荐场景：</strong>购物中心、地铁站、高流量商业区域
+                    </div>
+</div>
+<div class="color-card">
+<div class="color-preview">
+<img alt="AL1205黑色" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_707a48b36c1f4ea1bf32a7159a047ff2"/>
+</div>
+<h3 class="color-name">黑色</h3>
+<p class="color-description">沉稳大气的纯黑色，耐脏易打理，彰显专业品质</p>
+<div class="recommended-usage">
+<strong>推荐场景：</strong>工业厂房、物流中心、重型设备区域
+                    </div>
+</div>
+<div class="color-card">
+<div class="color-preview">
+<img alt="AL1205红色" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_0c4471a8ac9d4dcb9d37181164ac247d"/>
+</div>
+<h3 class="color-name">红黑条纹</h3>
+<p class="color-description">醒目的红黑搭配，具有警示效果，适合需要引起注意的区域</p>
+<div class="recommended-usage">
+<strong>推荐场景：</strong>安全通道、紧急出入口、重要设备周围
+                    </div>
+</div>
+</div>
+</div>
+<!-- AL1215 产品展示 -->
+<div class="product-section">
+<div class="section-header">
+<h2 class="model-title">AL1215 加厚型</h2>
+<div class="model-specs">绒高: 15mm | 宽度: 68mm | 重量: 20kg/㎡</div>
+</div>
+<div class="colors-grid">
+<div class="color-card">
+<div class="color-preview">
+<img alt="AL1215浅灰色" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_d7c1f53fd84446d0b2bcb66b969f66d1"/>
+</div>
+<h3 class="color-name">浅灰色</h3>
+<p class="color-description">加厚版浅灰色，提供更强的除尘能力和舒适脚感</p>
+<div class="recommended-usage">
+<strong>推荐场景：</strong>豪华酒店、高端会所、精品商店入口
+                    </div>
+</div>
+<div class="color-card">
+<div class="color-preview">
+<img alt="AL1215浅灰条纹" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_57cf1ad20dff427b89b9bd7dd5439819"/>
+</div>
+<h3 class="color-name">浅灰条纹</h3>
+<p class="color-description">加厚条纹设计，更深层的清洁效果，适合超高人流区域</p>
+<div class="recommended-usage">
+<strong>推荐场景：</strong>大型商场主入口、交通枢纽、展览中心
+                    </div>
+</div>
+<div class="color-card">
+<div class="color-preview">
+<img alt="AL1215黑色" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_410c255864fc459882fbd5b856eda918"/>
+</div>
+<h3 class="color-name">黑色</h3>
+<p class="color-description">加厚版黑色地垫，提供最强的承重和耐磨性能</p>
+<div class="recommended-usage">
+<strong>推荐场景：</strong>重工业区域、货物装卸区、叉车频繁通行区
+                    </div>
+</div>
+<div class="color-card">
+<div class="color-preview">
+<img alt="AL1215红色" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_23f4b216b81c4792b3dd3e2e641c22fe"/>
+</div>
+<h3 class="color-name">红黑条纹</h3>
+<p class="color-description">加厚型警示条纹，在提供安全警示的同时确保极强的承重能力</p>
+<div class="recommended-usage">
+<strong>推荐场景：</strong>危险区域入口、重型设备操作区、紧急疏散通道
+                    </div>
+</div>
+</div>
+</div>
+<!-- 选择指南 -->
+<div class="selection-guide">
+<h3 class="guide-title">如何选择合适的型号和颜色？</h3>
+<div class="guide-grid">
+<div class="guide-item">
+<div class="guide-icon">🏢</div>
+<div class="guide-text">
+<strong>商务办公</strong><br/>
+                        推荐AL1205浅灰色<br/>
+                        简约专业，易于维护
+                    </div>
+</div>
+<div class="guide-item">
+<div class="guide-icon">🏪</div>
+<div class="guide-text">
+<strong>零售商业</strong><br/>
+                        推荐AL1215灰黑条纹<br/>
+                        高流量耐用，视觉美观
+                    </div>
+</div>
+<div class="guide-item">
+<div class="guide-icon">🏭</div>
+<div class="guide-text">
+<strong>工业厂房</strong><br/>
+                        推荐AL1215黑色<br/>
+                        超强承重，耐脏易清洁
+                    </div>
+</div>
+<div class="guide-item">
+<div class="guide-icon">⚠️</div>
+<div class="guide-text">
+<strong>安全区域</strong><br/>
+                        推荐红黑条纹款<br/>
+                        醒目警示，确保安全
+                    </div>
+</div>
+</div>
+</div>
+<!-- 规格对比小标题 -->
+<div class="section-divider">
+<img alt="型号规格对比" class="section-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_e70bd4cae9114e85a9d19549164baf68"/>
+</div>
+<!-- 规格对比 -->
+<div class="comparison-section">
+<h3 class="comparison-title">型号规格对比</h3>
+<div class="comparison-grid">
+<div class="model-comparison">
+<h4 style="text-align: center; font-size: 1.3rem; margin-bottom: 20px; color: #667eea;">AL1205 标准型</h4>
+<div class="spec-item">
+<span class="spec-label">绒高</span>
+<span class="spec-value">5mm</span>
+</div>
+<div class="spec-item">
+<span class="spec-label">宽度</span>
+<span class="spec-value">58mm</span>
+</div>
+<div class="spec-item">
+<span class="spec-label">重量</span>
+<span class="spec-value">13kg/㎡</span>
+</div>
+<div class="spec-item">
+<span class="spec-label">适用场景</span>
+<span class="spec-value">一般人流</span>
+</div>
+<div class="spec-item">
+<span class="spec-label">性价比</span>
+<span class="spec-value">⭐⭐⭐⭐⭐</span>
+</div>
+</div>
+<div class="model-comparison">
+<h4 style="text-align: center; font-size: 1.3rem; margin-bottom: 20px; color: #764ba2;">AL1215 加厚型</h4>
+<div class="spec-item">
+<span class="spec-label">绒高</span>
+<span class="spec-value">15mm</span>
+</div>
+<div class="spec-item">
+<span class="spec-label">宽度</span>
+<span class="spec-value">68mm</span>
+</div>
+<div class="spec-item">
+<span class="spec-label">重量</span>
+<span class="spec-value">20kg/㎡</span>
+</div>
+<div class="spec-item">
+<span class="spec-label">适用场景</span>
+<span class="spec-value">超高人流</span>
+</div>
+<div class="spec-item">
+<span class="spec-label">耐用性</span>
+<span class="spec-value">⭐⭐⭐⭐⭐</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 模态框 -->
+<div id="imageModal" style="display:none; position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center;">
+<span onclick="closeModal()" style="position:absolute; top:20px; right:30px; font-size:40px; color:white; cursor:pointer;">×</span>
+<img alt="放大图" id="modalImage" src="" style="max-width:90%; max-height:90%; border-radius:12px; box-shadow:0 10px 40px rgba(0,0,0,0.5);"/>
+</div>
+<script>
+    function openModal(imgSrc) {
+        document.getElementById("modalImage").src = imgSrc;
+        document.getElementById("imageModal").style.display = "flex";
+    }
+
+    function closeModal() {
+        document.getElementById("imageModal").style.display = "none";
+        document.getElementById("modalImage").src = "";
+    }
+
+    window.onload = function () {
+        const images = document.querySelectorAll(".product-image");
+        images.forEach(img => {
+            img.style.cursor = "zoom-in";
+            img.addEventListener("click", () => openModal(img.src));
+        });
+    };
+</script>
+</body>
+</html>
