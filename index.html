@@ -315,7 +315,54 @@
             color: #64748b;
             line-height: 1.4;
         }
-    </style>
+    
+.colors-grid-outer {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.colors-grid {
+    display: inline-flex;
+    gap: 25px;
+    flex-wrap: nowrap;
+    transform-origin: top center;
+    transition: transform 0.3s ease;
+    width: auto;
+}
+
+.color-card {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 1300px) {
+    .colors-grid {
+        transform: scale(0.95) translateX(-2.5%);
+    }
+}
+@media (max-width: 1100px) {
+    .colors-grid {
+        transform: scale(0.85) translateX(-5%);
+    }
+}
+@media (max-width: 900px) {
+    .colors-grid {
+        transform: scale(0.75) translateX(-7.5%);
+    }
+}
+@media (max-width: 700px) {
+    .colors-grid {
+        transform: scale(0.65) translateX(-10%);
+    }
+}
+@media (max-width: 500px) {
+    .colors-grid {
+        transform: scale(0.55) translateX(-12.5%);
+    }
+}
+
+</style>
 </head>
 <body>
 <div class="container">
@@ -334,7 +381,7 @@
 <h2 class="model-title">AL1205 标准型</h2>
 <div class="model-specs">绒高: 5mm | 宽度: 58mm | 重量: 13kg/㎡</div>
 </div>
-<div class="colors-grid">
+<div class="colors-grid-outer"><div class="colors-grid">
 <div class="color-card">
 <div class="color-preview">
 <img alt="AL1205浅灰色" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_e7c1ca67179a4858908725751167ca4d"/>
@@ -375,15 +422,14 @@
 <strong>推荐场景：</strong>安全通道、紧急出入口、重要设备周围
                     </div>
 </div>
-</div>
-</div>
+</div></div></div>
 <!-- AL1215 产品展示 -->
 <div class="product-section">
 <div class="section-header">
 <h2 class="model-title">AL1215 加厚型</h2>
 <div class="model-specs">绒高: 15mm | 宽度: 68mm | 重量: 20kg/㎡</div>
 </div>
-<div class="colors-grid">
+<div class="colors-grid-outer"><div class="colors-grid">
 <div class="color-card">
 <div class="color-preview">
 <img alt="AL1215浅灰色" class="product-image" src="https://a2.fspage.com/image/plhbkj/C_202506_03_d7c1f53fd84446d0b2bcb66b969f66d1"/>
